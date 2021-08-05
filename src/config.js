@@ -1,26 +1,22 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'kzapata0919@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/kzapata19',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/karenzapata19',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/karenzapata19_',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/karenzapata19',
     },
   ],
 
@@ -30,11 +26,11 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
+      name: 'Blog',
+      url: '/#blog', //#jobs
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
@@ -44,9 +40,9 @@ module.exports = {
   ],
 
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: '#FFFFFF', //<-- replaced with white// original: '#64ffda',
+    navy: '#FFA500', //<-- replaced with orange// original: '#0a192f',
+    darkNavy: 'FF0000', //<-- replaced with red// original:'#020c1b',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({
