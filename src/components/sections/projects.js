@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import React, { useEffect, useRef } from 'react'; //removed useState since we removed Show More option for now
+import { useStaticQuery, graphql } from 'gatsby'; //removed Link from this list
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -189,7 +189,7 @@ const Projects = () => {
     }
   `);
 
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
@@ -205,10 +205,10 @@ const Projects = () => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  const GRID_LIMIT = 6;
+  const GRID_LIMIT = 0; // EDIT: was 6
   const projects = data.projects.edges.filter(({ node }) => node);
   const firstSix = projects.slice(0, GRID_LIMIT);
-  const projectsToShow = showMore ? projects : firstSix;
+  const projectsToShow = firstSix; // showMore ? projects : firstSix; I removed the Show More for now
 
   const projectInner = node => {
     const { frontmatter, html } = node;
@@ -264,11 +264,11 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Other Work - Coming Soon</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
+      {/* <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
-      </Link>
+      </Link> */}
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (
@@ -301,9 +301,9 @@ const Projects = () => {
         )}
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
+      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
-      </button>
+      </button> */}
     </StyledProjectsSection>
   );
 };
