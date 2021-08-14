@@ -80,7 +80,10 @@ const StyledProject = styled.li`
     margin-bottom: 35px;
 
     .folder {
-      color: var(--green);
+      color: var(--blue);
+       {
+        /* --green */
+      }
       svg {
         width: 40px;
         height: 40px;

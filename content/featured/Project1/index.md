@@ -1,15 +1,14 @@
 ---
-date: '3'
-title: 'Project #1' #'OctoProfile'
-cover: './comingsoontransparent.png' #'./octoprofile.png'
-github: 'https://github.com/kzapata19'
-external: ''#'https://octoprofile.now.sh'
+date: '2017'
+title: 'Omni Food'
+cover: './omniFood.png'
+github: 'https://github.com/kzapata19/omniFood'
+external: 'https://omnifooddelivers.netlify.app/'
 tech:
   - Javascript
-  # - Next.js
-  # - Chart.js
-  # - GitHub API
+  - HTML
+  - CSS
 showInProjects: true
 ---
 
-Description for Project #1
+Omni Food, a responsive site with a beautiful design for a healthy food delivery service
