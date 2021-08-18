@@ -5,7 +5,7 @@ cover: './omniFood.png'
 github: 'https://github.com/kzapata19/omniFood'
 external: 'https://omnifooddelivers.netlify.app/'
 tech:
-  - Javascript
+  - JavaScript
   - HTML
   - CSS
 showInProjects: true
