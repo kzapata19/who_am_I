@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: ''
 title: 'HewJS'
 cover: './HewJSLandingPage.png'
 github: 'https://github.com/kzapata19/HewJS'

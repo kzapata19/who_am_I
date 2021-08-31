@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: ''
 title: 'OnlyFish'
 cover: './feed.png'
 github: 'https://github.com/flannel-mouths/only-fish'

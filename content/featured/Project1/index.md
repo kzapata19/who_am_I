@@ -1,5 +1,5 @@
 ---
-date: '2017'
+date: ''
 title: 'Omni Food'
 cover: './omniFood.png'
 github: 'https://github.com/kzapata19/omniFood'
