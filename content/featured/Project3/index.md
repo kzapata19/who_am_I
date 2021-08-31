@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'HewJS'
-cover: './comingsoontransparent.png'
+cover: './HewJSLandingPage.png'
 github: 'https://github.com/kzapata19/HewJS'
 external: 'https://hewjs.herokuapp.com/'
 tech:
