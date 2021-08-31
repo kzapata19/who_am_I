@@ -5,7 +5,7 @@ cover: './feed.png'
 github: 'https://github.com/flannel-mouths/only-fish'
 external: 'https://only-fish.herokuapp.com/login'
 tech:
-  - JavaScript
+  - React.js
   - Node.js
   - Express.js
   - EJS

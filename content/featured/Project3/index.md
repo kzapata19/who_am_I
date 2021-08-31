@@ -1,17 +1,16 @@
 ---
 date: '1'
-title: 'Project #3'
-cover: './comingsoontransparent.png' #'./halcyon.png'
-github: 'https://github.com/kzapata19'
-external: '' #'https://halcyon-theme.netlify.com/'
+title: 'HewJS'
+cover: './comingsoontransparent.png'
+github: 'https://github.com/kzapata19/HewJS'
+external: 'https://hewjs.herokuapp.com/'
 tech:
-  - Javascript
-  # - VS Code
-  # - Sublime Text
-  # - Atom
-  # - iTerm2
-  # - Hyper
+  - React.js
+  - Node.js
+  - Express.js
+  - MongoDB
+
 showInProjects: true
 ---
 
-Description for Project #3
+System converts raw data into professional data visualizations making complex data easy for everyone to understand
