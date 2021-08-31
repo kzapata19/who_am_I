@@ -10,8 +10,6 @@ tech:
   - Express.js
   - EJS
   - MongoDB
-  - CSS
-  - HTML
 showInProjects: true
 ---
 
